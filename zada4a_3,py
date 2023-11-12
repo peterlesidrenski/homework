@@ -1,0 +1,13 @@
+student = input("Enter a student number: ")
+if student.startswith("23"):
+    print("I-ви курс")
+elif student.startswith("22"):
+    print("II-ри курс")
+elif student.startswith("21"):
+    print("III-ти курс")
+elif student.startswith("20"):
+    print("IV-ти курс")
+elif student.startswith("19"):
+    print("V-ти курс")
+else:
+    print("There is no such student number!")
